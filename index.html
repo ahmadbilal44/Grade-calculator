@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Grade Calculator — Fast & Simple Score Calculator</title>
+<meta name="description" content="A fast, accurate, and easy grade calculator. Enter your score and total marks to instantly get your percentage and grade." />
+<link rel="canonical" href="https://example.com/" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Grade Calculator",
+  "url": "https://example.com",
+  "description": "A clean and simple online grade calculator for students and teachers.",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "All"
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Grade Calculator</h1>
+    <input id="score" placeholder="Score">
+    <input id="total" placeholder="Total Marks">
+    <button onclick="calculateGrade()">Calculate</button>
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
